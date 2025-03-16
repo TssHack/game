@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(to bottom, #4A90E2, #D7E1EC);
+    transition: background 0.5s;
+}
+
+#game-container {
+    margin-top: 20px;
+}
+
+#game-area {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    border: 3px solid white;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    transition: background 0.5s;
+}
+
+#player {
+    width: 30px;
+    height: 30px;
+    background-color: #ffcc00;
+    position: absolute;
+    top: 185px;
+    left: 185px;
+    border-radius: 50%;
+    transition: transform 0.1s;
+    box-shadow: 0px 0px 10px rgba(255, 204, 0, 0.8);
+}
+
+.obstacle {
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(circle, red, darkred);
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.8);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #e64a19;
+}
